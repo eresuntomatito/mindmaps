@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Maintenance in Aggregates Production Mind Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/mindmap.css" id="main-styles">
+</head>
+<body>
+    <!-- Navigation will be injected here by NavigationMenu -->
+    <div class="container">
+        <div class="central-topic">
+            <h1>Predictive Maintenance in Aggregates Production</h1>
+            <button class="expand-all-btn">Expand All</button>
+        </div>
+
+        <!-- Mind Map with Relationship Data (Optional) -->
+        <div class="mind-map" data-relationships='{
+            "Aggregates Process": ["Sensor & Data Integration", "Analytics & AI"],
+            "Analytics & AI": ["Preventive vs. Predictive Approaches", "Maintenance Scheduling"],
+            "Maintenance Scheduling": ["Business Value", "Implementation Challenges"]
+        }'>
+        
+            <div class="flow-container">
+                <!-- 1. Aggregates Process Section -->
+                <div class="column" data-section-type="process">
+                    <h2>Aggregates Process</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Crushing & Screening">
+                            <div class="node">
+                                <h3 class="expandable">Crushing & Screening</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Crushing Stages
+                                        <ul class="expandable-content">
+                                            <li>Primary (Jaw, Gyratory)</li>
+                                            <li>Secondary (Cone, Impact)</li>
+                                            <li>Tertiary (Fine Crushers)</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Screening & Classification
+                                        <ul class="expandable-content">
+                                            <li>Particle Size Control</li>
+                                            <li>Quality Assessment</li>
+                                            <li>Throughput Optimization</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Stockpiling">
+                            <div class="node">
+                                <h3 class="expandable">Stockpile Management</h3>
+                                <ul class="expandable-content">
+                                    <li>Loader Operations & Hauling</li>
+                                    <li>Inventory Control</li>
+                                    <li>Material Blending</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2. Sensor & Data Integration Section -->
+                <div class="column" data-section-type="technology">
+                    <h2>Sensor & Data Integration</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="IoT Sensors">
+                            <div class="node">
+                                <h3 class="expandable">IoT Sensor Placement</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Vibration Sensors
+                                        <ul class="expandable-content">
+                                            <li>Crusher Shafts & Bearings</li>
+                                            <li>Conveyor Systems</li>
+                                            <li>Early Failure Detection</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Temperature & Pressure
+                                        <ul class="expandable-content">
+                                            <li>Hydraulic Systems</li>
+                                            <li>Gearboxes & Motors</li>
+                                            <li>Lubrication Lines</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Operational Sensors
+                                        <ul class="expandable-content">
+                                            <li>Amperage & Power Draw</li>
+                                            <li>Belt Speed & Tension</li>
+                                            <li>Real-time Throughput</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="DataInfrastructure">
+                            <div class="node">
+                                <h3 class="expandable">Data Infrastructure</h3>
+                                <ul class="expandable-content">
+                                    <li>Network Connectivity (Edge, Cloud)</li>
+                                    <li>Data Lake & Real-time Dashboards</li>
+                                    <li>Security & Access Control</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Analytics & AI Section -->
+                <div class="column" data-section-type="analysis">
+                    <h2>Analytics & AI</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="PredictiveModels">
+                            <div class="node">
+                                <h3 class="expandable">Machine Learning Models</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Failure Prediction
+                                        <ul class="expandable-content">
+                                            <li>Classification (healthy vs. at-risk)</li>
+                                            <li>Anomaly Detection (vibration spikes)</li>
+                                            <li>Historical Failure Data Analysis</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Remaining Useful Life (RUL)
+                                        <ul class="expandable-content">
+                                            <li>Regression Modeling</li>
+                                            <li>Maintenance Timelines</li>
+                                            <li>Confidence Intervals</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Process Optimization
+                                        <ul class="expandable-content">
+                                            <li>Real-time Throughput Adjustment</li>
+                                            <li>Energy Use Monitoring</li>
+                                            <li>Bottleneck Reduction</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="PreventiveVS_Predictive">
+                            <div class="node">
+                                <h3 class="expandable">Preventive vs. Predictive</h3>
+                                <ul class="expandable-content">
+                                    <li>Scheduled vs. Condition-based Maintenance</li>
+                                    <li>Pros & Cons in Aggregates Environment</li>
+                                    <li>ROI Comparisons & Downtime Implications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Maintenance Scheduling Section -->
+                <div class="column" data-section-type="process">
+                    <h2>Maintenance Scheduling</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="PlannerTools">
+                            <div class="node">
+                                <h3 class="expandable">Planner Tools & Software</h3>
+                                <ul class="expandable-content">
+                                    <li>CMMS Integration (Computerized Maintenance Management System)</li>
+                                    <li>Work Order Automation</li>
+                                    <li>Resource Allocation & Parts Inventory</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Workflow">
+                            <div class="node">
+                                <h3 class="expandable">Maintenance Workflow</h3>
+                                <ul class="expandable-content">
+                                    <li>Routine Inspections Triggered by Sensor Alerts</li>
+                                    <li>Cross-functional Collaboration (Operations, Maintenance, QC)</li>
+                                    <li>Scheduling Downtime During Off-Peak Hours</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Business Value Section -->
+                <div class="column" data-section-type="business">
+                    <h2>Business Value</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="ROI">
+                            <div class="node">
+                                <h3 class="expandable">Cost Savings & ROI</h3>
+                                <ul class="expandable-content">
+                                    <li>Fewer Unexpected Breakdowns</li>
+                                    <li>Lower Repair & Emergency Costs</li>
+                                    <li>Longer Equipment Lifecycle</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Productivity">
+                            <div class="node">
+                                <h3 class="expandable">Increased Productivity</h3>
+                                <ul class="expandable-content">
+                                    <li>Higher Output from Reduced Downtime</li>
+                                    <li>Optimized Material Flow</li>
+                                    <li>Consistent Product Quality</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="RiskMitigation">
+                            <div class="node">
+                                <h3 class="expandable">Risk & Safety</h3>
+                                <ul class="expandable-content">
+                                    <li>Proactive Detection of Hazardous Conditions</li>
+                                    <li>Safer Equipment Operation</li>
+                                    <li>Regulatory Compliance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Implementation Challenges Section -->
+                <div class="column" data-section-type="implementation">
+                    <h2>Implementation Challenges</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="ChangeManagement">
+                            <div class="node">
+                                <h3 class="expandable">Change Management</h3>
+                                <ul class="expandable-content">
+                                    <li>Operational Resistance to New Systems</li>
+                                    <li>Training & Upskilling Workforce</li>
+                                    <li>Cross-departmental Collaboration</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Technical">
+                            <div class="node">
+                                <h3 class="expandable">Technical Challenges</h3>
+                                <ul class="expandable-content">
+                                    <li>Sensor Calibration & Reliability</li>
+                                    <li>Network Coverage in Remote Quarry Sites</li>
+                                    <li>Integration with Legacy Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="CostJustification">
+                            <div class="node">
+                                <h3 class="expandable">Cost & ROI Justification</h3>
+                                <ul class="expandable-content">
+                                    <li>CapEx vs. OpEx Trade-offs</li>
+                                    <li>Scaling from Pilot Projects to Full Deployment</li>
+                                    <li>Long-term Commitment & Upkeep</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end of flow-container -->
+        </div>
+    </div>
+
+    <script src="../js/mindmap.js"></script>
+    <script>
+        // Initialize the application
+        MindMapApp.init();
+    </script>
+</body>
+</html> 

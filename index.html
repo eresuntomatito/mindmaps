@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Maps Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/mindmap.css" id="main-styles">
+    <style>
+        .map-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .map-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px var(--shadow-color);
+            padding: 20px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .map-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px var(--shadow-color);
+        }
+
+        .map-icon {
+            font-size: 2em;
+            color: var(--secondary-color);
+        }
+
+        .map-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .map-description {
+            color: var(--text-color);
+            opacity: 0.8;
+            margin: 0;
+            flex: 1;
+        }
+
+        .map-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 0.9em;
+            color: var(--text-color);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation will be injected here by NavigationMenu -->
+    <div class="container">
+        <div class="central-topic">
+            <h1>Mind Maps Hub</h1>
+        </div>
+        <div class="map-grid">
+            <a href="maps/construction_materials_business.html" class="map-card">
+                <i class="fas fa-industry map-icon"></i>
+                <h3>Construction Materials Business</h3>
+                <p>Comprehensive guide to construction materials business operations and processes.</p>
+                <div class="map-meta">
+                    <span>5 main sections</span>
+                    <span>30+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/circular_economy.html" class="map-card">
+                <i class="fas fa-recycle map-icon"></i>
+                <h3>Circular Economy</h3>
+                <p>Guide to circular economy principles, strategies, and implementation.</p>
+                <div class="map-meta">
+                    <span>7 main sections</span>
+                    <span>35+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/construction_waste_lca.html" class="map-card">
+                <i class="fas fa-chart-line map-icon"></i>
+                <h3>Construction Waste LCA</h3>
+                <p>Lifecycle assessment of construction waste management and environmental impact.</p>
+                <div class="map-meta">
+                    <span>5 main sections</span>
+                    <span>40+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/digital_technology.html" class="map-card">
+                <i class="fas fa-microchip map-icon"></i>
+                <h3>Digital Technology Impact</h3>
+                <p>Comprehensive analysis of digital technology's impact on society, environment, and economy.</p>
+                <div class="map-meta">
+                    <span>4 main sections</span>
+                    <span>45+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/smart_infrastructure.html" class="map-card">
+                <i class="fas fa-building-columns map-icon"></i>
+                <h3>Smart Infrastructure</h3>
+                <p>Analysis of smart infrastructure technologies, implementation, and benefits.</p>
+                <div class="map-meta">
+                    <span>4 main sections</span>
+                    <span>35+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/business_process_optimization.html" class="map-card">
+                <i class="fas fa-gears map-icon"></i>
+                <h3>Business Process Optimization</h3>
+                <p>Strategies and methodologies for optimizing business processes and operations.</p>
+                <div class="map-meta">
+                    <span>5 main sections</span>
+                    <span>30+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/cement_plant.html" class="map-card">
+                <i class="fas fa-industry map-icon"></i>
+                <h3>Cement Plant</h3>
+                <p>Detailed overview of cement plant operations, processes, and optimization.</p>
+                <div class="map-meta">
+                    <span>6 main sections</span>
+                    <span>40+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/quarry-operations.html" class="map-card">
+                <i class="fas fa-mountain map-icon"></i>
+                <h3>Quarry Operations</h3>
+                <p>Comprehensive overview of quarry operations, from site exploration to business efficiency.</p>
+                <div class="map-meta">
+                    <span>7 main sections</span>
+                    <span>45+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/predictive-maintenance-aggregates.html" class="map-card">
+                <i class="fas fa-cogs map-icon"></i>
+                <h3>Predictive Maintenance in Aggregates</h3>
+                <p>Advanced guide to implementing predictive maintenance in aggregates production facilities.</p>
+                <div class="map-meta">
+                    <span>6 main sections</span>
+                    <span>40+ nodes</span>
+                </div>
+            </a>
+            <a href="maps/generative-ai-construction.html" class="map-card">
+                <i class="fas fa-robot map-icon"></i>
+                <h3>Generative AI in Construction</h3>
+                <p>Comprehensive analysis of AI applications in construction design, management, and operations.</p>
+                <div class="map-meta">
+                    <span>6 main sections</span>
+                    <span>45+ nodes</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button id="styleToggle">Disable CSS</button>
+    <script src="js/mindmap.js"></script>
+</body>
+</html> 

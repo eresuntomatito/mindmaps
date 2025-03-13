@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cement Plant Mind Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/mindmap.css" id="main-styles">
+</head>
+<body>
+    <!-- Navigation will be injected here by NavigationMenu -->
+    <div class="container">
+        <div class="central-topic">
+            <h1>Cement Plant Operations</h1>
+            <button class="expand-all-btn">Expand All</button>
+        </div>
+
+        <div class="mind-map">
+            <div class="flow-container">
+                <!-- Raw Materials & Quarry Section -->
+                <div class="column raw-materials" data-section-type="process">
+                    <h2>Raw Materials & Quarry</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Extraction">
+                            <div class="node">
+                                <h3 class="expandable">Quarry Operations</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Extraction Methods
+                                        <ul class="expandable-content">
+                                            <li>Drilling</li>
+                                            <li>Blasting</li>
+                                            <li>Loading</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Quality Control
+                                        <ul class="expandable-content">
+                                            <li>Sampling</li>
+                                            <li>Analysis</li>
+                                            <li>Grade Control</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Processing">
+                            <div class="node">
+                                <h3 class="expandable">Material Processing</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Crushing
+                                        <ul class="expandable-content">
+                                            <li>Primary</li>
+                                            <li>Secondary</li>
+                                            <li>Size Control</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Storage
+                                        <ul class="expandable-content">
+                                            <li>Stockpiles</li>
+                                            <li>Reclaiming</li>
+                                            <li>Blending</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Production Process Section -->
+                <div class="column production" data-section-type="process">
+                    <h2>Production Process</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Raw Meal">
+                            <div class="node">
+                                <h3 class="expandable">Raw Meal Preparation</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Raw Mill
+                                        <ul class="expandable-content">
+                                            <li>Grinding</li>
+                                            <li>Drying</li>
+                                            <li>Mixing</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Homogenization
+                                        <ul class="expandable-content">
+                                            <li>Blending</li>
+                                            <li>Storage</li>
+                                            <li>Control</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Clinker">
+                            <div class="node">
+                                <h3 class="expandable">Clinker Production</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Preheater
+                                        <ul class="expandable-content">
+                                            <li>Heat Exchange</li>
+                                            <li>Calcination</li>
+                                            <li>Gas Flow</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Kiln Operation
+                                        <ul class="expandable-content">
+                                            <li>Temperature</li>
+                                            <li>Feed Rate</li>
+                                            <li>Fuel Mix</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Cooling
+                                        <ul class="expandable-content">
+                                            <li>Heat Recovery</li>
+                                            <li>Clinker Quality</li>
+                                            <li>Storage</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Cement">
+                            <div class="node">
+                                <h3 class="expandable">Cement Grinding</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Mill Operation
+                                        <ul class="expandable-content">
+                                            <li>Feed Control</li>
+                                            <li>Fineness</li>
+                                            <li>Temperature</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Additives
+                                        <ul class="expandable-content">
+                                            <li>Gypsum</li>
+                                            <li>Minerals</li>
+                                            <li>Blending</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quality Control Section -->
+                <div class="column quality" data-section-type="analysis">
+                    <h2>Quality Control</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Testing">
+                            <div class="node">
+                                <h3 class="expandable">Laboratory Testing</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Chemical Analysis
+                                        <ul class="expandable-content">
+                                            <li>Raw Material Testing</li>
+                                            <li>In-process Testing</li>
+                                            <li>Final Product Testing</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Physical Tests
+                                        <ul class="expandable-content">
+                                            <li>Strength Testing</li>
+                                            <li>Setting Time</li>
+                                            <li>Particle Size</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Performance Testing
+                                        <ul class="expandable-content">
+                                            <li>Durability Tests</li>
+                                            <li>Application Tests</li>
+                                            <li>Special Properties</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Control">
+                            <div class="node">
+                                <h3 class="expandable">Process Control</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Online Analyzers
+                                        <ul class="expandable-content">
+                                            <li>X-ray Analysis</li>
+                                            <li>Gas Analysis</li>
+                                            <li>Moisture Control</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Control Systems
+                                        <ul class="expandable-content">
+                                            <li>Process Parameters</li>
+                                            <li>Automated Control</li>
+                                            <li>Data Logging</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Quality Parameters
+                                        <ul class="expandable-content">
+                                            <li>Statistical Control</li>
+                                            <li>Trend Analysis</li>
+                                            <li>Quality Reports</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maintenance & Equipment Section -->
+                <div class="column maintenance" data-section-type="management">
+                    <h2>Maintenance & Equipment</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Prevention">
+                            <div class="node">
+                                <h3 class="expandable">Preventive Maintenance</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Scheduled Inspections
+                                        <ul class="expandable-content">
+                                            <li>Equipment Checks</li>
+                                            <li>Wear Analysis</li>
+                                            <li>Performance Testing</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Equipment Monitoring
+                                        <ul class="expandable-content">
+                                            <li>Vibration Analysis</li>
+                                            <li>Temperature Monitoring</li>
+                                            <li>Oil Analysis</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Predictive Analysis
+                                        <ul class="expandable-content">
+                                            <li>Failure Prediction</li>
+                                            <li>Maintenance Planning</li>
+                                            <li>Resource Allocation</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Management">
+                            <div class="node">
+                                <h3 class="expandable">Equipment Management</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Spare Parts
+                                        <ul class="expandable-content">
+                                            <li>Inventory Control</li>
+                                            <li>Critical Spares</li>
+                                            <li>Supplier Management</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Repair Procedures
+                                        <ul class="expandable-content">
+                                            <li>Standard Procedures</li>
+                                            <li>Emergency Repairs</li>
+                                            <li>Quality Control</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Upgrade Planning
+                                        <ul class="expandable-content">
+                                            <li>Technology Assessment</li>
+                                            <li>Cost-Benefit Analysis</li>
+                                            <li>Implementation Plans</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Environmental Control Section -->
+                <div class="column environmental" data-section-type="environment">
+                    <h2>Environmental Control</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Emissions">
+                            <div class="node">
+                                <h3 class="expandable">Emissions Management</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Dust Control
+                                        <ul class="expandable-content">
+                                            <li>Filter Systems</li>
+                                            <li>Collection Equipment</li>
+                                            <li>Monitoring Systems</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Gas Treatment
+                                        <ul class="expandable-content">
+                                            <li>NOx Reduction</li>
+                                            <li>SO2 Control</li>
+                                            <li>CO2 Management</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Monitoring Systems
+                                        <ul class="expandable-content">
+                                            <li>Continuous Monitoring</li>
+                                            <li>Data Analysis</li>
+                                            <li>Compliance Reporting</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Resources">
+                            <div class="node">
+                                <h3 class="expandable">Resource Efficiency</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Energy Management
+                                        <ul class="expandable-content">
+                                            <li>Heat Recovery</li>
+                                            <li>Power Optimization</li>
+                                            <li>Alternative Fuels</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Water Conservation
+                                        <ul class="expandable-content">
+                                            <li>Recycling Systems</li>
+                                            <li>Usage Reduction</li>
+                                            <li>Treatment Plants</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Waste Reduction
+                                        <ul class="expandable-content">
+                                            <li>Material Recovery</li>
+                                            <li>By-product Utilization</li>
+                                            <li>Disposal Management</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Storage & Distribution Section -->
+                <div class="column logistics">
+                    <h2>Storage & Distribution</h2>
+                    <div class="process-flow">
+                        <div class="process-step" data-step="Storage">
+                            <div class="node">
+                                <h3 class="expandable">Storage Systems</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Silos
+                                        <ul class="expandable-content">
+                                            <li>Capacity</li>
+                                            <li>Monitoring</li>
+                                            <li>Maintenance</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Packaging
+                                        <ul class="expandable-content">
+                                            <li>Bag Filling</li>
+                                            <li>Palletizing</li>
+                                            <li>Bulk Loading</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="Distribution">
+                            <div class="node">
+                                <h3 class="expandable">Distribution Management</h3>
+                                <ul class="expandable-content">
+                                    <li class="expandable">Transport
+                                        <ul class="expandable-content">
+                                            <li>Truck Loading</li>
+                                            <li>Rail Transport</li>
+                                            <li>Ship Loading</li>
+                                        </ul>
+                                    </li>
+                                    <li class="expandable">Logistics
+                                        <ul class="expandable-content">
+                                            <li>Route Planning</li>
+                                            <li>Scheduling</li>
+                                            <li>Tracking</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plant Management Section -->
+                <div class="column management" data-section-type="management">
+                    <h2>Plant Management</h2>
+                    <div class="node">
+                        <h3 class="expandable">Operations Planning</h3>
+                        <ul class="expandable-content">
+                            <li>Production Scheduling</li>
+                            <li>Resource Allocation</li>
+                            <li>Performance Monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Cost Control</h3>
+                        <ul class="expandable-content">
+                            <li>Energy Costs</li>
+                            <li>Material Costs</li>
+                            <li>Maintenance Costs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Safety & Compliance Section -->
+                <div class="column safety" data-section-type="management">
+                    <h2>Safety & Compliance</h2>
+                    <div class="node">
+                        <h3 class="expandable">Safety Management</h3>
+                        <ul class="expandable-content">
+                            <li>Risk Assessment</li>
+                            <li>Safety Procedures</li>
+                            <li>Emergency Response</li>
+                        </ul>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Regulatory Compliance</h3>
+                        <ul class="expandable-content">
+                            <li>Environmental Standards</li>
+                            <li>Safety Regulations</li>
+                            <li>Quality Standards</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-left scroll-indicator">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="scroll-right scroll-indicator">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    <button id="styleToggle">Disable CSS</button>
+    <script src="../js/mindmap.js"></script>
+    <script>
+        // Initialize the application
+        MindMapApp.init();
+    </script>
+</body>
+</html> 

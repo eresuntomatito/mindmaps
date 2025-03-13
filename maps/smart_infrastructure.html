@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Infrastructure Mind Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/mindmap.css" id="main-styles">
+</head>
+<body>
+    <!-- Navigation will be injected here by NavigationMenu -->
+    <div class="container">
+        <div class="central-topic">
+            <h1>Smart Infrastructure & Industry 4.0</h1>
+            <h2 class="subtitle">Predictive Maintenance</h2>
+            <button class="expand-all-btn">Expand All</button>
+        </div>
+
+        <div class="mind-map" data-relationships='{
+            "Automation & AI": ["IoT-Enabled Monitoring", "Cyber-Physical Systems"],
+            "IoT-Enabled Monitoring": ["Real-Time Analytics", "Cyber-Physical Systems"],
+            "Real-Time Analytics": ["Business Process Integration", "Cyber-Physical Systems"],
+            "Cyber-Physical Systems": ["Business Process Integration", "Automation & AI"]
+        }'>
+            <div class="scroll-left"><i class="fas fa-chevron-left"></i></div>
+            <div class="scroll-right"><i class="fas fa-chevron-right"></i></div>
+
+            <div class="columns">
+                <div class="column" data-section-type="technology">
+                    <h2>Automation & AI on Production Lines</h2>
+                    <div class="node">
+                        <h3 class="expandable">Robotics & Automated Systems</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Robotic handling, sorting, and packaging</li>
+                                <li>Automated guided vehicles (AGVs) or conveyors</li>
+                                <li>Machine vision for quality checks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">AI-driven Process Control</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Real-time optimization of kiln or mill parameters</li>
+                                <li>Adaptive control loops based on historical & real-time data</li>
+                                <li>Self-correcting systems to reduce waste and downtime</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Predictive Analytics Engine</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Use of historical production data (vibrations, temperatures, power usage)</li>
+                                <li>AI algorithms (machine learning, deep learning) to forecast failures</li>
+                                <li>Early alerts & recommended maintenance actions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column" data-section-type="implementation">
+                    <h2>IoT-Enabled Monitoring</h2>
+                    <div class="node">
+                        <h3 class="expandable">Sensor Integration</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Condition monitoring sensors on motors, fans, conveyors, etc.</li>
+                                <li>Temperature, vibration, and pressure data collection</li>
+                                <li>Emission monitoring in sensitive areas (dust, NOx, CO2)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Connectivity & Data Infrastructure</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Secure industrial IoT networks for real-time data flow</li>
+                                <li>Edge devices for local processing & immediate alerts</li>
+                                <li>Cloud or on-premise solutions for large-scale analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Maintenance Dashboards</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Centralized visualization of equipment health</li>
+                                <li>Color-coded alarm levels (normal, warning, critical)</li>
+                                <li>Integration with maintenance tickets & scheduling systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column" data-section-type="analysis">
+                    <h2>Real-Time Analytics for Logistics & Supply Chain</h2>
+                    <div class="node">
+                        <h3 class="expandable">Material Tracking & Inventory</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>RFID/barcode/IoT tags for raw materials & finished cement</li>
+                                <li>Automated reorder triggers when stock dips below thresholds</li>
+                                <li>Minimizing storage costs & improving just-in-time delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Fleet & Transport Optimization</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>GPS-enabled tracking of trucks & distribution routes</li>
+                                <li>Live traffic data for route adjustments & dispatch scheduling</li>
+                                <li>Reducing carbon footprint & operational costs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Cross-Functional Insights</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Combining production data with logistics for better forecasting</li>
+                                <li>Sales & demand alignment for stable plant operation</li>
+                                <li>Identifying supply chain bottlenecks (e.g., material shortage or shipping delays)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column" data-section-type="process">
+                    <h2>Cyber-Physical Systems</h2>
+                    <div class="node">
+                        <h3 class="expandable">Digital Twin Modeling</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Virtual replicas of cement plant processes or entire facilities</li>
+                                <li>Simulation of "what-if" scenarios for temperature, feed rate, or fuel mix</li>
+                                <li>Predicting performance under different operating conditions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Remote Access & Control</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Operators can adjust process parameters from secure control rooms</li>
+                                <li>Real-time collaboration across multiple plants or sites</li>
+                                <li>Improved flexibility & rapid response to anomalies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Data-Driven Maintenance Schedules</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Automatically generated maintenance tasks based on digital twin forecasts</li>
+                                <li>Prioritization of repairs or part replacements before downtime occurs</li>
+                                <li>Minimizing unplanned outages & production losses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column" data-section-type="business">
+                    <h2>Business Process Integration</h2>
+                    <div class="node">
+                        <h3 class="expandable">Predictive Maintenance ROI</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Reduced downtime & overtime labor costs</li>
+                                <li>Extended equipment lifespan</li>
+                                <li>Better resource allocation and budgeting</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Change Management & Workforce Skills</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Training staff in digital tools & analytics</li>
+                                <li>Cross-functional collaboration between operations & IT</li>
+                                <li>Cultural shift toward data-driven decision-making</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <h3 class="expandable">Scalability & Continuous Improvement</h3>
+                        <div class="expandable-content collapsed">
+                            <ul>
+                                <li>Rolling out predictive maintenance to additional equipment or lines</li>
+                                <li>Iterative refinement of AI models as more data is collected</li>
+                                <li>Building a roadmap for future Industry 4.0 expansions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/mindmap.js"></script>
+    <script>
+        // Initialize the application
+        MindMapApp.init();
+    </script>
+</body>
+</html> 
